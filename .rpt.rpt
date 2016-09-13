@@ -1,0 +1,29 @@
+** Drc report for /home/wintermute/apps/emboard/emboard.kicad_pcb **
+** Created on 2016-09-12 17:57:23 **
+
+** Found 7 DRC errors **
+ErrType(10): Two track ends too close
+    @ (122.530 mm,112.837 mm): Track 0.100 mm, net [+1] (3) on layer B.Cu, length: 0.259 mm
+    @ (122.347 mm,112.837 mm): Track 0.100 mm, net [-1] (4) on layer B.Cu, length: 0.259 mm
+ErrType(6): Via near via
+    @ (122.712 mm,113.020 mm): Via 0.110 mm net [+1] (3) on layers F.Cu/B.Cu
+    @ (122.530 mm,113.020 mm): Via 0.110 mm net [-1] (4) on layers F.Cu/B.Cu
+ErrType(6): Via near via
+    @ (122.712 mm,110.825 mm): Via 0.110 mm net [+1] (3) on layers F.Cu/B.Cu
+    @ (122.530 mm,110.825 mm): Via 0.110 mm net [-1] (4) on layers F.Cu/B.Cu
+ErrType(6): Via near via
+    @ (121.249 mm,108.082 mm): Via 0.110 mm net [+2] (5) on layers F.Cu/B.Cu
+    @ (121.067 mm,108.082 mm): Via 0.110 mm net [-2] (6) on layers F.Cu/B.Cu
+ErrType(18): Two track ends too close
+    @ (121.249 mm,108.082 mm): Track 0.100 mm, net [+2] (5) on layer B.Cu, length: 2.012 mm
+    @ (121.067 mm,110.094 mm): Track 0.100 mm, net [-2] (6) on layer B.Cu, length: 0.259 mm
+ErrType(10): Two track ends too close
+    @ (121.249 mm,110.094 mm): Track 0.100 mm, net [+2] (5) on layer B.Cu, length: 0.259 mm
+    @ (121.067 mm,110.094 mm): Track 0.100 mm, net [-2] (6) on layer B.Cu, length: 0.259 mm
+ErrType(6): Via near via
+    @ (121.432 mm,110.277 mm): Via 0.110 mm net [+2] (5) on layers F.Cu/B.Cu
+    @ (121.249 mm,110.277 mm): Via 0.110 mm net [-2] (6) on layers F.Cu/B.Cu
+
+** Found 0 unconnected pads **
+
+** End of Report **
