@@ -1,0 +1,9 @@
+*.gbr
+*.drl
+*.bak
+*-bak
+*.zip
+_autosave*
+*.swp
+.rpt
+.rpt.rpt
