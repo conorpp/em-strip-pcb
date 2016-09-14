@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:2pin-header
+LIBS:emboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -101,4 +102,50 @@ Wire Wire Line
 	4750 4250 4750 4500
 Wire Wire Line
 	4200 4500 4150 4500
+$Comp
+L 2pin-header P3
+U 1 1 57D894F6
+P 4350 1400
+F 0 "P3" H 4350 1500 60  0000 C CNN
+F 1 "2pin-header" H 4350 1400 60  0000 C CNN
+F 2 "footprints:2pin-header" H 4350 1400 60  0001 C CNN
+F 3 "" H 4350 1400 60  0001 C CNN
+	1    4350 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 2100 0    60   Input ~ 0
+Buttonleft1
+Text GLabel 6650 2150 0    60   Input ~ 0
+buttonright1
+$Comp
+L 2pin-header P4
+U 1 1 57D89823
+P 6650 1400
+F 0 "P4" H 6650 1500 60  0000 C CNN
+F 1 "2pin-header" H 6650 1400 60  0000 C CNN
+F 2 "footprints:2pin-header" H 6650 1400 60  0001 C CNN
+F 3 "" H 6650 1400 60  0001 C CNN
+	1    6650 1400
+	1    0    0    -1  
+$EndComp
+Text GLabel 4550 2300 0    60   Input ~ 0
+Buttonleft2
+Text GLabel 7050 2400 0    60   Input ~ 0
+buttonright2
+Wire Wire Line
+	4150 2100 4150 1900
+Wire Wire Line
+	4150 1900 4100 1900
+Wire Wire Line
+	4550 2300 4550 1900
+Wire Wire Line
+	4550 1900 4450 1900
+Wire Wire Line
+	6650 2150 6650 1900
+Wire Wire Line
+	6650 1900 6400 1900
+Wire Wire Line
+	6750 1900 7050 1900
+Wire Wire Line
+	7050 1900 7050 2400
 $EndSCHEMATC

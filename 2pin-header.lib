@@ -17,4 +17,19 @@ X 2 2 -250 -500 200 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# snapbutton
+#
+DEF snapbutton B 0 40 Y Y 1 F N
+F0 "B" -150 100 60 H V C CNN
+F1 "snapbutton" 200 100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 100 -200 71 0 1 0 N
+C 100 -200 158 0 1 0 N
+X Outside 1 100 -100 200 R 50 50 1 1 I
+X Inside 2 100 -200 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 #End Library
